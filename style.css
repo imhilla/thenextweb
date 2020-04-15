@@ -65,10 +65,66 @@
 /* tablet */
 
 @media only screen and (min-device-width: 426px) and (max-device-width: 768px) {
-  #div {
-    margin-top: 20px;
+  * > a {
+    text-decoration: none;
   }
-} /* end */
+
+  .logo {
+    background: #f42;
+    background: linear-gradient(to bottom right, #c09, #f42 85%);
+    display: block;
+    height: 80px;
+    padding: 16px 20px;
+    width: 106px;
+    float: left;
+  }
+
+  .header-nav {
+    float: left;
+  }
+
+  .header-nav-top {
+    background: #131313;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 32px;
+    max-height: 32px;
+    display: flex;
+    width: 86vw;
+  }
+
+  .nav-top-list-first-child {
+    margin-left: 20px;
+    color: #fff;
+  }
+
+  .nav-top-link {
+    margin-left: 12px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .header-nav-bottom {
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #aaa;
+    display: flex;
+    height: 48px;
+    letter-spacing: 0.04em;
+    line-height: 48px;
+    font-size: 0.8em;
+  }
+
+  .nav-bottom-first-child {
+    padding-left: 20px;
+  }
+
+  .nav-bottom-link {
+    padding: 18px 10px 0;
+    color: inherit;
+  }
+}
+
+/* end */
 
 /* laptop-start */
 @media only screen and (min-device-width: 769px) and (max-device-width: 2560px) {
