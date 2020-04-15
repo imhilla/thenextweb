@@ -47,6 +47,19 @@
   }
 }
 
+.announcement-bar {
+  background-color: #fd3;
+  color: #000;
+  line-height: 60px;
+  font-size: 12px;
+  text-align: center;
+  padding: 0 6px;
+}
+
+.announcement-bar::after {
+  content: "→";
+}
+
 /* end */
 
 /* tablet */
