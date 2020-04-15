@@ -122,6 +122,16 @@
     padding: 18px 10px 0;
     color: inherit;
   }
+
+  .announcement-bar {
+    /* background: #fd3;
+    color: #000; */
+    line-height: 60px;
+    font-size: 13px;
+    padding-left: 126px;
+    clear: both;
+    text-align: left;
+  }
 }
 
 /* end */
