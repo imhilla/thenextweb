@@ -1,0 +1,24 @@
+/* mobile */
+@media only screen and (min-device-width: 320px) and (max-device-width: 425px) {
+  #div {
+    margin-top: 20px;
+  }
+}
+end */
+
+/* tablet */
+
+
+@media only screen and (min-device-width: 426px) and (max-device-width: 768px) {
+  #div {
+    margin-top: 20px;
+  }
+} /* end */
+
+/* laptop-start*/
+@media only screen and (min-device-width: 769px) and (max-device-width: 2560px) {
+  #div {
+    margin-top: 20px;
+  }
+}
+/* laptop end*/
