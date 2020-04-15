@@ -3,15 +3,22 @@
   box-sizing: border-box;
 }
 
+.logo {
+  background: #f42;
+  background: linear-gradient(to bottom right, #c09, #f42 85%);
+  display: block;
+  padding: 16px 20px;
+  width: 106px;
+}
+
 /* mobile */
 @media only screen and (min-device-width: 320px) and (max-device-width: 425px) {
+  .header-nav {
+    display: none;
+  }
+
   .logo {
-    background: #f42;
-    background: linear-gradient(to bottom right, #c09, #f42 85%);
-    display: block;
     height: 48px;
-    padding: 16px 20px;
-    width: 106px;
   }
 
   .header-wrapper {
@@ -69,14 +76,13 @@
     text-decoration: none;
   }
 
+  .header-right {
+    display: none;
+  }
+
   .logo {
-    background: #f42;
-    background: linear-gradient(to bottom right, #c09, #f42 85%);
-    display: block;
-    height: 80px;
-    padding: 16px 20px;
-    width: 106px;
     float: left;
+    height: 80px;
   }
 
   .header-nav {
