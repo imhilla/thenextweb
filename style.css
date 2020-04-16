@@ -204,6 +204,61 @@
 
 /* hillarys boundary */
 
+/* latest deals start */
+
+.latest-deals {
+  margin: 0 100px 0 100px;
+}
+
+.latest-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 40px;
+  width: 100%;
+}
+
+.latest-deal-link a {
+  color: red;
+  font-size: 30px;
+}
+
+.deals-img img {
+  width: 100%;
+  height: auto;
+}
+
+.see-all-deals a {
+  font-size: 20px;
+  color: red;
+}
+
+.deals-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.deals-description {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+}
+
+.deals-description h1 {
+  font-weight: bold;
+  color: #000;
+  margin: 5px 0 3px 0;
+}
+.underline{
+  text-decoration: line-through;
+  color: gray;
+}
+.price {
+  margin: 5px 0px;
+}
+/* latest deals end */
+
 /*
 footer start */
 
@@ -302,7 +357,28 @@ ul {
   font-size: 15px;
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 425px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 425px) {
+  .deals-section {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .latest-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .latest-deal-link a {
+    color: red;
+    font-size: 15px;
+  }
+
+  .see-all-deals a {
+    font-size: 10px;
+    color: red;
+  }
+
   .footer-links-menu li a {
     font-size: 13px;
   }
