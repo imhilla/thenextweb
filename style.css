@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
 }
@@ -127,6 +126,40 @@
     text-align: center;
     padding: 0 6px;
   }
+
+  .top-cover-wrapper {
+    position: relative;
+    top: 18vh;
+  }
+
+  .cover {
+    min-height: 30vh;
+    width: 100%;
+  }
+
+  .cover-left {
+    background-image: url(./img/top-img-1.jpg);
+    background-size: 96% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: 50%;
+  }
+
+  .cover-right-top {
+    background-image: url(./img/top-img-2.jpg);
+    background-size: 96% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: 50%;
+  }
+
+  .cover-right-bottom {
+    background-image: url(./img/top-img-3.jpg);
+    background-size: 96% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: 50%;
+  }
 }
 
 /* end */
@@ -212,15 +245,7 @@
 
 /* laptop end */
 
-
-
-
-
-
-
 /*
 footer start */
-
-
 
 /* footer end */
