@@ -269,7 +269,15 @@
   color: red;
   font-size: 30px;
 }
+.news-grid-rows {
+  grid-template-rows: ;
+}
 
+.news-articles-headline-img img{
+  height: 70px;
+  width: 100px;
+}
+/*
 .news-most-popular{
   display: flex;
   flex-direction: column;
@@ -286,10 +294,7 @@
   flex-direction: column;
 }
 
-.news-articles-headline-img img{
-  height: 100px;
-  width: auto;
-}
+*/
 
 
 
