@@ -4,6 +4,7 @@
 
 * > a {
   text-decoration: none;
+  color: inherit;
 }
 
 .logo {
@@ -135,6 +136,13 @@
   .cover {
     min-height: 30vh;
     width: 100%;
+    position: relative;
+  }
+
+  .cover-header {
+    position: absolute;
+    padding: 14px;
+    color: #fff;
   }
 
   .cover-left {
