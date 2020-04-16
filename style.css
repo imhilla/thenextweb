@@ -221,7 +221,6 @@
 
   .header-nav-top {
     width: 100vw;
-    padding: 0 18px 0 0;
   }
 
   .header-nav-top-left {
@@ -236,6 +235,7 @@
 
   .nav-top-last-child {
     margin-right: 20px;
+    padding-right: 18px;
   }
 
   .nav-bottom-first-child {
