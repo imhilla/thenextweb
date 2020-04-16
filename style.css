@@ -272,6 +272,7 @@
 .latest-deal-link a {
   color: red;
   font-size: 30px;
+  font-weight: bold;
 }
 
 .deals-img img {
@@ -310,9 +311,11 @@
   text-decoration: line-through;
   color: gray;
 }
+
 .price {
-  margin: 5px 0px;
+  margin: 5px 0;
 }
+
 /* latest deals end */
 
 /*
@@ -419,7 +422,7 @@ ul {
   }
 
   .deals-description h1 {
-    font-size: 14px;
+    font-size: 13px;
   }
   .price {
     font-size: 13px;
