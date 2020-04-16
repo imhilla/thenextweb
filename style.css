@@ -70,6 +70,7 @@
   letter-spacing: 0.04em;
   line-height: 48px;
   font-size: 0.8em;
+  padding-right: 13px;
 }
 
 .nav-bottom-first-child {
@@ -220,6 +221,7 @@
 
   .header-nav-top {
     width: 100vw;
+    padding: 0 18px 0 0;
   }
 
   .header-nav-top-left {
@@ -237,7 +239,7 @@
   }
 
   .nav-bottom-first-child {
-    padding-left: 18px;
+    padding-left: 11px;
   }
 
   .nav-bottom-icon {
