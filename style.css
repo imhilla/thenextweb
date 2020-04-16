@@ -31,6 +31,7 @@
 .announcement-bar {
   background-color: #fd3;
   color: #000;
+  display: block;
 }
 
 .announcement-bar::after {
@@ -85,6 +86,14 @@
 
 /* mobile */
 @media only screen and (min-device-width: 320px) and (max-device-width: 425px) {
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 100;
+  }
+
   .tablet {
     display: none;
   }
