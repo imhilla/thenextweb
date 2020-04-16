@@ -9,10 +9,12 @@
 
 .logo {
   background: #f42;
-  background: linear-gradient(to bottom right, #c09, #f42 85%);
+  background: url(./img/download.jpg);
   display: block;
   padding: 16px 20px;
   width: 106px;
+  background-size: 100%;
+  background-position: 0;
 }
 
 .header-right-items {
@@ -24,7 +26,6 @@
 
 .fa-search {
   transform: rotate(90deg);
-  opacity: 0.25;
   font-size: 1.1em;
 }
 
@@ -92,9 +93,10 @@
     left: 0;
     width: 100vw;
     z-index: 100;
+    background-color: #fff;
   }
 
-  .tablet {
+  .tablet-laptop {
     display: none;
   }
 
@@ -111,6 +113,10 @@
   .header-right {
     display: flex;
     justify-content: space-between;
+  }
+
+  .fa-search {
+    opacity: 0.5;
   }
 
   .burger-stripes {
@@ -235,13 +241,10 @@
   }
 
   .nav-bottom-icon {
-    font-size: 1.5em;
+    font-size: 1.2em;
     position: relative;
     top: -14px;
-  }
-
-  .nav-bottom-icon > a {
-    font-size: 1.5em;
+    opacity: 0.8;
   }
 
   .announcement-bar {
