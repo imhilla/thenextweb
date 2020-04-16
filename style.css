@@ -182,6 +182,22 @@
   .nav-bottom-first-child {
     padding-left: 18px;
   }
+
+  .nav-bottom-icon {
+    font-size: 1.5em;
+    position: relative;
+    top: -14px;
+  }
+
+  .nav-bottom-icon > a {
+    font-size: 1.5em;
+  }
+
+  .announcement-bar {
+    line-height: 30px;
+    padding-left: 20px;
+    clear: both;
+  }
 }
 
 /* laptop end */
