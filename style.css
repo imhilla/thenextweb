@@ -301,6 +301,11 @@
   color: #000;
   margin: 5px 0 3px 0;
 }
+
+.deals-description h1:hover {
+  color: red;
+}
+
 .underline {
   text-decoration: line-through;
   color: gray;
@@ -413,14 +418,17 @@ ul {
     margin: 0 20px 0 20px;
   }
 
-  .deals-description h1{
-    font-size: 10px;
+  .deals-description h1 {
+    font-size: 14px;
+  }
+  .price {
+    font-size: 13px;
   }
 
   .deals-section {
     display: grid;
     grid-template-columns: 1fr;
-  grid-gap: 0;
+    grid-gap: 0;
   }
 
   .deals-container {
@@ -433,7 +441,7 @@ ul {
     height: auto;
     margin: 0 10px 0 0;
   }
-  
+
   .latest-row {
     display: flex;
     flex-direction: row;
