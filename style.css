@@ -254,6 +254,49 @@
 /* laptop end */
 
 /* hillarys boundary */
+.news {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.news-headers {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.news-headers h1 {
+  font-weight: bold;
+  color: red;
+  font-size: 30px;
+}
+
+.news-most-popular{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.news-horizontal{
+  display: grid;
+ grid-template-columns: 3fr ifr;
+}
+
+.news-articles-headline{
+  display: flex;
+  flex-direction: column;
+}
+
+.news-articles-headline-img img{
+  height: 100px;
+  width: auto;
+}
+
+
+
+
+/* news section */
+
+/* news section end */
 
 /* latest deals start */
 
