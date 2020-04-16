@@ -410,12 +410,17 @@ ul {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 425px) {
   .latest-deals {
-    margin: 0 10px 0 10px;
+    margin: 0 20px 0 20px;
+  }
+
+  .deals-description h1{
+    font-size: 10px;
   }
 
   .deals-section {
     display: grid;
     grid-template-columns: 1fr;
+  grid-gap: 0;
   }
 
   .deals-container {
@@ -424,7 +429,7 @@ ul {
   }
 
   .deals-img img {
-    width: 130px;
+    width: 100px;
     height: auto;
     margin: 0 10px 0 0;
   }
