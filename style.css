@@ -7,6 +7,10 @@
   color: inherit;
 }
 
+.bold {
+  font-weight: 900;
+}
+
 .logo {
   background: #f42;
   background: url(./img/download.jpg);
@@ -87,6 +91,7 @@
 }
 
 /* mobile */
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 425px) {
   header {
     position: fixed;
@@ -135,45 +140,69 @@
     padding: 0 6px;
   }
 
-  .top-cover-wrapper {
+  .top-cover {
     position: relative;
-    top: 18vh;
+    top: 16vh;
+    z-index: 1;
   }
 
   .cover {
-    min-height: 30vh;
-    width: 100%;
     position: relative;
+    min-height: 30vh;
   }
 
   .cover-header {
     position: absolute;
-    padding: 14px;
+    padding: 18px;
+    background: transparent;
+    top: 10vh;
     color: #fff;
+    line-height: 1.2;
+  }
+
+  .cover-title {
+    font-size: 1.3em;
+  }
+
+  .cover-heading {
+    font-size: 1.4em;
+    letter-spacing: -0.015em;
+    line-height: 1.1;
+    margin-bottom: 0.2em;
   }
 
   .cover-left {
-    background-image: url(./img/top-img-1.jpg);
+    background: linear-gradient(360deg, black, transparent), url(./img/top-img-1.jpg);
     background-size: 96% 100%;
     background-repeat: no-repeat;
-    width: 100%;
     background-position: 50%;
+    width: 100%;
   }
 
   .cover-right-top {
-    background-image: url(./img/top-img-2.jpg);
+    background: linear-gradient(360deg, black, transparent), url(./img/top-img-2.jpg);
     background-size: 96% 100%;
     background-repeat: no-repeat;
-    width: 100%;
     background-position: 50%;
+    width: 100%;
   }
 
   .cover-right-bottom {
-    background-image: url(./img/top-img-3.jpg);
+    background: linear-gradient(360deg, black, transparent), url(./img/top-img-4.png);
     background-size: 96% 100%;
     background-repeat: no-repeat;
-    width: 100%;
     background-position: 50%;
+    width: 100%;
+  }
+
+  .baseline-list {
+    color: rgba(255, 255, 255, 0.6);
+    margin-left: -10px;
+  }
+
+  .baseline-list > li {
+    float: left;
+    margin-left: 10px;
   }
 }
 
