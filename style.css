@@ -278,6 +278,11 @@ body {
   .news-img-8 {
     background: url(./img/news-8.png);
   }
+
+  .funding-deals {
+    padding: 24px 20px;
+    margin-bottom: 2em;
+  }
 }
 
 /* end */
