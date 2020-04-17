@@ -216,6 +216,68 @@ body {
     background-position: 50%;
     width: 100%;
   }
+
+  .latest-news {
+    position: relative;
+    top: 14vh;
+    padding: 24px 20px;
+    margin-bottom: 2em;
+  }
+
+  .news-wrapper {
+    min-height: 72px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px 5px 0;
+  }
+
+  .news-img {
+    display: block;
+    width: 20vw;
+  }
+
+  .news-content {
+    width: 70vw;
+    margin-left: 10px;
+  }
+
+  .news-byline {
+    color: #aaa;
+    font-size: 12px;
+    display: flex;
+  }
+
+  .news-img-1 {
+    background: url(./img/news-5.png);
+  }
+
+  .news-img-2 {
+    background: url(./img/news-extra.png);
+  }
+
+  .news-img-3 {
+    background: url(./img/news-1.png);
+  }
+
+  .news-img-4 {
+    background: url(./img/news-2.jpg);
+  }
+
+  .news-img-5 {
+    background: url(./img/hero-laptop.jpg);
+  }
+
+  .news-img-6 {
+    background: url(./img/right-top.jpg);
+  }
+
+  .news-img-7 {
+    background: url(./img/right-bottom.jpg);
+  }
+
+  .news-img-8 {
+    background: url(./img/news-8.png);
+  }
 }
 
 /* end */
