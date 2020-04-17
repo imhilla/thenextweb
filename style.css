@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-* > a {
+*>a {
   text-decoration: none;
   color: inherit;
 }
@@ -300,6 +300,7 @@ body {
 /* tablet */
 
 @media only screen and (min-device-width: 426px) and (max-device-width: 768px) {
+
   .mobile,
   .laptop {
     display: none;
@@ -381,6 +382,7 @@ body {
 
 /* laptop-start */
 @media only screen and (min-device-width: 769px) and (max-device-width: 2560px) {
+
   .mobile-tablet,
   .mobile,
   .cover-left-heading-tablet {
@@ -414,7 +416,14 @@ body {
     font-size: 1.2em;
     position: relative;
     top: -14px;
+<<<<<<< HEAD
     opacity: 0.8;
+=======
+  }
+
+  .nav-bottom-icon>a {
+    font-size: 1.5em;
+>>>>>>> parent of 4921408... finished apps section part
   }
 
   .announcement-bar {
@@ -518,6 +527,7 @@ body {
   height: 45vh;
   width: fit-content;
   padding-left: 10px;
+ 
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -525,6 +535,7 @@ body {
   background-size: cover;
 }
 
+<<<<<<< HEAD
 .background1 {
   background: linear-gradient(to top, black, transparent),
     url(img/top-img-1.jpg);
@@ -563,6 +574,23 @@ body {
   background: linear-gradient(to top, black, transparent),
     url(img/Screen-Shot-2020-01-30-at-8.40.06-AM-796x462.png);
 }
+=======
+.background1 { background-image: url(img/top-img-1.jpg);}
+
+.background2 {background-image: url(img/top-img-2.jpg);}
+
+.background3 {background-image: url(img/Indian-IT-796x418.jpg);}
+
+.background4 {background-image: url(img/1-16-796x417.jpg);}
+
+.background5 {background-image: url(img/usa-flag.PNG);}
+
+.background6 {background-image: url(img/maxresdefault-796x448.jpg);}
+
+.background7 {background-image: url(img/Google-coronavirus-portal-796x419.jpg);}
+
+.background8 {background-image: url(img/Screen-Shot-2020-01-30-at-8.40.06-AM-796x462.png);}
+>>>>>>> parent of 4921408... finished apps section part
 
 .news-wrapper {
   position: relative;
@@ -595,7 +623,7 @@ body {
 .news-horizontal {
   display: flex;
   flex-direction: row;
-  background-color: rgb(255, 250, 250);
+  background-color: rgb(255, 209, 209);
   height: auto;
   width: fit-content;
   padding-left: 10px;
@@ -629,12 +657,7 @@ body {
 }
 
 .news-articles-li a {
-  color: gray;
-  font-size: 14px;
-}
-
-.news-articles-li a:hover {
-  color: black;
+  color: #000;
 }
 
 .news-articles hr {
@@ -807,6 +830,7 @@ footer start */
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 425px) {
+<<<<<<< HEAD
   .news {
     display: grid;
     grid-template-columns: 1fr;
@@ -844,6 +868,8 @@ footer start */
     bottom: -110px;
   }
 
+=======
+>>>>>>> parent of 4921408... finished apps section part
   .latest-deals {
     margin: 0 20px 0 20px;
   }
@@ -905,6 +931,7 @@ footer start */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
+<<<<<<< HEAD
 
   .news {
     display: grid;
@@ -935,6 +962,8 @@ footer start */
     overflow: hidden;
     bottom: -100px;
   }
+=======
+>>>>>>> parent of 4921408... finished apps section part
 
   .upper-wrapper {
     width: 60%;
@@ -953,6 +982,7 @@ footer start */
   .upper-wrapper {
     width: 35%;
   }
+<<<<<<< HEAD
 
   .news-most-popular {
     display: flex;
@@ -976,6 +1006,8 @@ footer start */
     overflow: hidden;
     bottom: -100px;
   }
+=======
+>>>>>>> parent of 4921408... finished apps section part
 }
 
 /* footer end */
