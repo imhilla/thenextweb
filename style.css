@@ -624,8 +624,12 @@ body {
   line-height: 16px;
 }
 
+.news-artlicles li {
+  list-style-position: outside;
+}
+
 .news-articles-li {
-  color: red;
+  color: red; 
 }
 
 .news-articles-li a {
@@ -641,9 +645,6 @@ body {
   color: gray;
 }
 
-/*
-
-*/
 
 /* news section */
 
@@ -958,7 +959,8 @@ footer start */
 
   .news-most-popular {
     display: flex;
-    flex-direction: column !important;
+    flex-direction: column;
+    height: 300px;
     width: fit-content;
     padding-left: 10px;
     background-repeat: no-repeat;
