@@ -629,7 +629,7 @@ body {
 }
 
 .news-articles-li {
-  color: red; 
+  color: red;
 }
 
 .news-articles-li a {
@@ -644,7 +644,6 @@ body {
 .news-articles hr {
   color: gray;
 }
-
 
 /* news section */
 
@@ -706,6 +705,7 @@ body {
 .underline {
   text-decoration: line-through;
   color: gray;
+  font-size: 12px;
 }
 
 .price {
@@ -900,6 +900,23 @@ footer start */
     display: flex;
     font-size: 13px;
     flex-direction: column;
+  }
+
+  .footer-links-social li {
+    border-radius: 50%;
+    border: 2px solid rgb(41, 40, 40);
+    background-color: rgb(41, 40, 40);
+    height: 35px;
+    width: 35px;
+    margin-top: 30px;
+  }
+
+  .footer-links-menu li a {
+    color: gray;
+    font-size: 11px;
+    margin: 5px;
+    text-decoration: none;
+    text-align: center;
   }
 }
 
