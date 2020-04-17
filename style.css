@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-* > a {
+*>a {
   text-decoration: none;
   color: inherit;
 }
@@ -175,6 +175,7 @@
 /* tablet */
 
 @media only screen and (min-device-width: 426px) and (max-device-width: 768px) {
+
   .mobile,
   .laptop {
     display: none;
@@ -207,6 +208,7 @@
 
 /* laptop-start */
 @media only screen and (min-device-width: 769px) and (max-device-width: 2560px) {
+
   .mobile-tablet,
   .mobile {
     display: none;
@@ -240,7 +242,7 @@
     top: -14px;
   }
 
-  .nav-bottom-icon > a {
+  .nav-bottom-icon>a {
     font-size: 1.5em;
   }
 
@@ -257,6 +259,7 @@
 .news {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
 }
 
 .news-headers {
@@ -268,36 +271,114 @@
   font-weight: bold;
   color: red;
   font-size: 30px;
-}
-.news-grid-rows {
-  grid-template-rows: ;
+  margin: 20px 0;
 }
 
-.news-articles-headline-img img{
-  height: 70px;
-  width: 100px;
+.news-most-popular {
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  width: fit-content;
+  padding-left: 10px;
+ 
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
+.background1 { background-image: url(img/top-img-1.jpg);}
+
+.background2 {background-image: url(img/top-img-2.jpg);}
+
+.background3 {background-image: url(img/Indian-IT-796x418.jpg);}
+
+.background4 {background-image: url(img/1-16-796x417.jpg);}
+
+.background5 {background-image: url(img/usa-flag.PNG);}
+
+.background6 {background-image: url(img/maxresdefault-796x448.jpg);}
+
+.background7 {background-image: url(img/Google-coronavirus-portal-796x419.jpg);}
+
+.background8 {background-image: url(img/Screen-Shot-2020-01-30-at-8.40.06-AM-796x462.png);}
+
+.news-wrapper {
+  position: relative;
+  overflow: hidden;
+  bottom: -130px;
+}
+
+.most-popular-h1 {
+  font-weight: bold;
+  font-size: 12px;
+  color: white;
+}
+
+.most-popular-a {
+  color: white;
+  height: auto;
+  margin: 10px 0;
+  font-size: 24px;
+}
+
+.news-date-container {
+  font-size: 13px;
+  color: rgb(199, 195, 195);
+}
+
+.news-author a:hover {
+  color: white;
+}
+
+.news-horizontal {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 209, 209);
+  height: auto;
+  width: fit-content;
+  padding-left: 10px;
+}
+
+.news-articles-headline {
+  color: red;
+}
+
+.news-latest-h1 {
+  font-size: 13px;
+  color: red;
+  margin: 10px 0 5px 0;
+}
+
+.news-articles-headline-img img {
+  height: 100px;
+  width: 118px;
+  margin-left: 4px;
+  margin-top: 2px;
+}
+
+.news-articles-headline-p {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 16px;
+}
+
+.news-articles-li {
+  color: red;
+}
+
+.news-articles-li a {
+  color: #000;
+}
+
+.news-articles hr {
+  color: gray;
+}
+
 /*
-.news-most-popular{
-  display: flex;
-  flex-direction: column;
-}
-
-
-.news-horizontal{
-  display: grid;
- grid-template-columns: 3fr ifr;
-}
-
-.news-articles-headline{
-  display: flex;
-  flex-direction: column;
-}
 
 */
-
-
-
 
 /* news section */
 
@@ -305,7 +386,8 @@
 
 /* latest deals start */
 
-.latest-deals {
+.latest-deals,
+.news {
   margin: 0 100px 0 100px;
 }
 
@@ -372,11 +454,6 @@ footer start */
 .footer {
   text-align: center;
   background-color: rgb(26, 25, 25);
-}
-
-ol,
-ul {
-  list-style: none;
 }
 
 .footer-links-social,
@@ -472,6 +549,7 @@ ul {
   .deals-description h1 {
     font-size: 13px;
   }
+
   .price {
     font-size: 13px;
   }
@@ -525,6 +603,7 @@ ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
+
   .upper-wrapper {
     width: 60%;
   }
