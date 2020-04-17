@@ -823,7 +823,7 @@ footer start */
   .news-most-popular {
     display: flex;
     flex-direction: column;
-    height: 75vh;
+    height: 240px;
     width: fit-content;
     padding-left: 10px;
     background-repeat: no-repeat;
