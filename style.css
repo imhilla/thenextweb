@@ -824,7 +824,7 @@ footer start */
   .news-most-popular {
     display: flex;
     flex-direction: column;
-    height: 240px;
+    height: 220px;
     width: fit-content;
     padding-left: 10px;
     background-repeat: no-repeat;
@@ -844,7 +844,7 @@ footer start */
     flex-direction: column;
     position: relative;
     overflow: hidden;
-    bottom: -100px;
+    bottom: -85px;
   }
 
   .latest-deals {
@@ -857,6 +857,10 @@ footer start */
 
   .price {
     font-size: 13px;
+  }
+
+  .underline {
+    font-size: 9px;
   }
 
   .deals-section {
