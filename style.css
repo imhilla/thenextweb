@@ -481,7 +481,6 @@ body {
   }
 
   .cover-right-bottom {
-
     background: linear-gradient(to top, black, transparent),
       url(./img/right-bottom.jpg);
     width: 100%;
@@ -566,7 +565,9 @@ body {
 }
 
 .news-wrapper {
- 
+  position: relative;
+  overflow: hidden;
+  bottom: -130px;
 }
 
 .most-popular-h1 {
@@ -838,7 +839,11 @@ footer start */
   }
 
   .news-wrapper {
-   
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    bottom: -100px;
   }
 
   .latest-deals {
@@ -928,7 +933,9 @@ footer start */
   }
 
   .news-wrapper {
-   
+    position: relative;
+    overflow: hidden;
+    bottom: -100px;
   }
 
   .upper-wrapper {
@@ -967,7 +974,9 @@ footer start */
   }
 
   .news-wrapper {
-   
+    position: relative;
+    overflow: hidden;
+    bottom: -100px;
   }
 }
 
