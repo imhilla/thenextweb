@@ -25,7 +25,11 @@ body {
   display: block;
   padding: 16px 20px;
   width: 106px;
-  background-size: 100%;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-position: 0;
 }
 
@@ -110,19 +114,23 @@ body {
 }
 
 .cover-right-top {
-  background: linear-gradient(360deg, black, transparent), url(./img/top-img-2.jpg);
-  background-size: 96% 100%;
+  background: linear-gradient(360deg, black, transparent),
+    url(./img/top-img-2.jpg);
   background-repeat: no-repeat;
-  background-position: 50%;
-  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .cover-right-bottom {
-  background: linear-gradient(360deg, black, transparent), url(./img/top-img-4.png);
-  background-size: 96% 100%;
+  background: linear-gradient(360deg, black, transparent),
+    url(./img/top-img-4.png);
   background-repeat: no-repeat;
-  background-position: 50%;
-  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .baseline-list {
@@ -136,7 +144,7 @@ body {
 }
 
 /* mobile */
-
+/*
 @media only screen and (min-device-width: 320px) and (max-device-width: 425px) {
   header {
     position: fixed;
@@ -210,11 +218,13 @@ body {
   }
 
   .cover-left {
-    background: linear-gradient(360deg, black, transparent), url(./img/top-img-1.jpg);
-    background-size: 96% 100%;
+    background: linear-gradient(360deg, black, transparent),
+      url(./img/top-img-1.jpg);
     background-repeat: no-repeat;
-    background-position: 50%;
-    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
   .latest-news {
@@ -341,7 +351,8 @@ body {
   .cover-left {
     width: 64vw;
     height: 100%;
-    background: linear-gradient(360deg, black 20%, transparent), url(./img/table-hero.jpg);
+    background: linear-gradient(360deg, black 20%, transparent),
+      url(./img/table-hero.jpg);
     background-position: 53% 0;
     background-repeat: no-repeat;
     display: flex;
@@ -423,7 +434,13 @@ body {
   .cover-left {
     width: 64vw;
     height: 100%;
-    background: linear-gradient(169deg, #f42 0%, rgba(255, 0, 0, 0.6) 30%, black 90%), url(./img/hero-laptop.jpg);
+    background: linear-gradient(
+        169deg,
+        #f42 0%,
+        rgba(255, 0, 0, 0.6) 30%,
+        black 90%
+      ),
+      url(./img/hero-laptop.jpg);
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: 100% 100%;
@@ -448,7 +465,8 @@ body {
   }
 
   .cover-right-top {
-    background: linear-gradient(to top, black, transparent), url(./img/right-top.jpg);
+    background: linear-gradient(to top, black, transparent),
+      url(./img/right-top.jpg);
     width: 100%;
     height: 48%;
     background-size: 100% 100%;
@@ -463,7 +481,8 @@ body {
   }
 
   .cover-right-bottom {
-    background: linear-gradient(to top, black, transparent), url(./img/right-bottom.jpg);
+    background: linear-gradient(to top, black, transparent),
+      url(./img/right-bottom.jpg);
     width: 100%;
     height: 50%;
     background-size: 100% 100%;
@@ -472,7 +491,7 @@ body {
   }
 }
 
-/* laptop end */
+ laptop end */
 
 /* hillarys boundary */
 .news {
@@ -496,7 +515,7 @@ body {
 .news-most-popular {
   display: flex;
   flex-direction: column;
-  height: 40vh;
+  height: 45vh;
   width: fit-content;
   padding-left: 10px;
   background-repeat: no-repeat;
@@ -507,35 +526,42 @@ body {
 }
 
 .background1 {
-  background-image: url(img/top-img-1.jpg);
+  background: linear-gradient(to top, black, transparent),
+    url(img/top-img-1.jpg);
 }
 
 .background2 {
-  background-image: url(img/top-img-2.jpg);
+  background: linear-gradient(to top, black, transparent),
+    url(img/top-img-2.jpg);
 }
 
 .background3 {
-  background-image: url(img/Indian-IT-796x418.jpg);
+  background: linear-gradient(to top, black, transparent),
+    url(img/Indian-IT-796x418.jpg);
 }
 
 .background4 {
-  background-image: url(img/1-16-796x417.jpg);
+  background: linear-gradient(to top, black, transparent),
+    url(img/1-16-796x417.jpg);
 }
 
 .background5 {
-  background-image: url(img/usa-flag.PNG);
+  background: linear-gradient(to top, black, transparent), url(img/usa-flag.PNG);
 }
 
 .background6 {
-  background-image: url(img/maxresdefault-796x448.jpg);
+  background: linear-gradient(to top, black, transparent),
+    url(img/maxresdefault-796x448.jpg);
 }
 
 .background7 {
-  background-image: url(img/Google-coronavirus-portal-796x419.jpg);
+  background: linear-gradient(to top, black, transparent),
+    url(img/Google-coronavirus-portal-796x419.jpg);
 }
 
 .background8 {
-  background-image: url(img/Screen-Shot-2020-01-30-at-8.40.06-AM-796x462.png);
+  background: linear-gradient(to top, black, transparent),
+    url(img/Screen-Shot-2020-01-30-at-8.40.06-AM-796x462.png);
 }
 
 .news-wrapper {
@@ -786,12 +812,14 @@ footer start */
     grid-template-columns: 1fr;
     margin: 0 20px 0 20px;
   }
+
   .news-headers h1 {
     font-weight: bold;
     color: red;
     font-size: 25px;
     margin: 10px 0;
   }
+
   .news-most-popular {
     display: flex;
     flex-direction: column;
@@ -815,7 +843,7 @@ footer start */
     overflow: hidden;
     bottom: -110px;
   }
- 
+
   .latest-deals {
     margin: 0 20px 0 20px;
   }
@@ -877,6 +905,7 @@ footer start */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
+
   .news {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -885,7 +914,7 @@ footer start */
 
   .news-most-popular {
     display: flex;
-    flex-direction: column;
+    flex-direction: column !important;
     height: 75vh;
     width: fit-content;
     padding-left: 10px;
@@ -896,11 +925,10 @@ footer start */
     background-size: cover;
   }
 
-  
-.latest-deals,
-.news {
-  margin: 0 50px 0 50px;
-}
+  .latest-deals,
+  .news {
+    margin: 0 50px 0 50px;
+  }
 
   .news-wrapper {
     position: relative;
@@ -925,10 +953,10 @@ footer start */
   .upper-wrapper {
     width: 35%;
   }
+
   .news-most-popular {
     display: flex;
     flex-direction: column;
-    height: 75vh;
     width: fit-content;
     padding-left: 10px;
     background-repeat: no-repeat;
@@ -937,15 +965,17 @@ footer start */
     -o-background-size: cover;
     background-size: cover;
   }
+
   .latest-deals,
-.news {
-  margin: 0 50px 0 50px;
-}
-.news-wrapper {
-  position: relative;
-  overflow: hidden;
-  bottom: -100px;
-}
+  .news {
+    margin: 0 50px 0 50px;
+  }
+
+  .news-wrapper {
+    position: relative;
+    overflow: hidden;
+    bottom: -100px;
+  }
 }
 
 /* footer end */
