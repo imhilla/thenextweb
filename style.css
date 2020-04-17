@@ -7,6 +7,10 @@
   color: inherit;
 }
 
+body {
+  overflow: hidden scroll;
+}
+
 .bold {
   font-weight: 900;
 }
@@ -144,7 +148,8 @@
   }
 
   .tablet-laptop,
-  .cover-left-heading-tablet {
+  .cover-left-heading-tablet,
+  .laptop {
     display: none;
   }
 
@@ -299,7 +304,8 @@
 /* laptop-start */
 @media only screen and (min-device-width: 769px) and (max-device-width: 2560px) {
   .mobile-tablet,
-  .mobile {
+  .mobile,
+  .cover-left-heading-tablet {
     display: none;
   }
 
@@ -337,6 +343,65 @@
     line-height: 30px;
     padding-left: 20px;
     clear: both;
+  }
+
+  .top-cover-container {
+    height: 75vh;
+    width: 97.6vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .cover-left {
+    width: 64vw;
+    height: 100%;
+    background: linear-gradient(169deg, #f42 0%, rgba(255, 0, 0, 0.6) 30%, black 90%), url(./img/hero-laptop.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100%;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .cover-header {
+    letter-spacing: -0.0015em;
+    padding: 20px;
+    color: #fff;
+  }
+
+  .cover-left-heading-laptop {
+    font-size: 3.5em;
+    opacity: 0.9;
+  }
+
+  .cover-right {
+    width: 33vw;
+    height: 100%;
+  }
+
+  .cover-right-top {
+    background: linear-gradient(to top, black, transparent), url(./img/right-top.jpg);
+    width: 100%;
+    height: 48%;
+    background-size: 100% 100%;
+    margin-bottom: 9px;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .cover-heading-laptop {
+    font-size: 1.8em;
+    color: white;
+  }
+
+  .cover-right-bottom {
+    background: linear-gradient(to top, black, transparent), url(./img/right-bottom.jpg);
+    width: 100%;
+    height: 50%;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: flex-end;
   }
 }
 
