@@ -855,6 +855,14 @@ footer start */
     font-size: 13px;
   }
 
+  .stackpath {
+    line-height: 40px;
+  }
+
+  .wifi-none {
+    display: none;
+  }
+
   .price {
     font-size: 13px;
   }
