@@ -918,7 +918,7 @@ footer start */
   .news-most-popular {
     display: flex;
     flex-direction: column !important;
-    height: 75vh;
+    height: 250px;
     width: fit-content;
     padding-left: 10px;
     background-repeat: no-repeat;
@@ -960,7 +960,7 @@ footer start */
   .news-most-popular {
     display: flex;
     flex-direction: column;
-    height: 300px;
+    height: 250px;
     width: fit-content;
     padding-left: 10px;
     background-repeat: no-repeat;
