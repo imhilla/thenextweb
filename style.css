@@ -7,12 +7,26 @@
   color: inherit;
 }
 
+body {
+  overflow: hidden scroll;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.clear {
+  clear: both;
+}
+
 .logo {
   background: #f42;
-  background: linear-gradient(to bottom right, #c09, #f42 85%);
+  background: url(./img/download.jpg);
   display: block;
   padding: 16px 20px;
   width: 106px;
+  background-size: 100%;
+  background-position: 0;
 }
 
 .header-right-items {
@@ -24,7 +38,6 @@
 
 .fa-search {
   transform: rotate(90deg);
-  opacity: 0.25;
   font-size: 1.1em;
 }
 
@@ -69,6 +82,7 @@
   letter-spacing: 0.04em;
   line-height: 48px;
   font-size: 0.8em;
+  padding-right: 13px;
 }
 
 .nav-bottom-first-child {
@@ -84,7 +98,45 @@
   color: inherit;
 }
 
+.cover-title {
+  font-size: 1.4em;
+}
+
+.cover-heading {
+  letter-spacing: -0.005em;
+  margin-bottom: 0.2em;
+  font-size: 1.3em;
+  line-height: 1.1;
+}
+
+.cover-right-top {
+  background: linear-gradient(360deg, black, transparent), url(./img/top-img-2.jpg);
+  background-size: 96% 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  width: 100%;
+}
+
+.cover-right-bottom {
+  background: linear-gradient(360deg, black, transparent), url(./img/top-img-4.png);
+  background-size: 96% 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  width: 100%;
+}
+
+.baseline-list {
+  color: rgba(255, 255, 255, 0.6);
+  margin-left: -10px;
+}
+
+.baseline-list > li {
+  float: left;
+  margin-left: 10px;
+}
+
 /* mobile */
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 425px) {
   header {
     position: fixed;
@@ -92,9 +144,12 @@
     left: 0;
     width: 100vw;
     z-index: 100;
+    background-color: #fff;
   }
 
-  .tablet {
+  .tablet-laptop,
+  .cover-left-heading-tablet,
+  .laptop {
     display: none;
   }
 
@@ -113,6 +168,10 @@
     justify-content: space-between;
   }
 
+  .fa-search {
+    opacity: 0.5;
+  }
+
   .burger-stripes {
     background-color: #f42;
     display: block;
@@ -128,45 +187,101 @@
     padding: 0 6px;
   }
 
-  .top-cover-wrapper {
+  .top-cover {
     position: relative;
-    top: 18vh;
+    top: 16vh;
+    z-index: 1;
   }
 
   .cover {
-    min-height: 30vh;
-    width: 100%;
     position: relative;
+    min-height: 30vh;
   }
 
   .cover-header {
     position: absolute;
-    padding: 14px;
+    padding: 18px;
+    background: transparent;
+    top: 7vh;
     color: #fff;
+    line-height: 1.2;
+
+    /* font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif; */
   }
 
   .cover-left {
-    background-image: url(./img/top-img-1.jpg);
+    background: linear-gradient(360deg, black, transparent), url(./img/top-img-1.jpg);
     background-size: 96% 100%;
     background-repeat: no-repeat;
-    width: 100%;
     background-position: 50%;
+    width: 100%;
   }
 
-  .cover-right-top {
-    background-image: url(./img/top-img-2.jpg);
-    background-size: 96% 100%;
-    background-repeat: no-repeat;
-    width: 100%;
-    background-position: 50%;
+  .latest-news {
+    position: relative;
+    top: 14vh;
+    padding: 24px 20px;
+    margin-bottom: 2em;
   }
 
-  .cover-right-bottom {
-    background-image: url(./img/top-img-3.jpg);
-    background-size: 96% 100%;
-    background-repeat: no-repeat;
-    width: 100%;
-    background-position: 50%;
+  .news-wrapper {
+    min-height: 72px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px 5px 0;
+  }
+
+  .news-img {
+    display: block;
+    width: 20vw;
+  }
+
+  .news-content {
+    width: 70vw;
+    margin-left: 10px;
+  }
+
+  .news-byline {
+    color: #aaa;
+    font-size: 12px;
+    display: flex;
+  }
+
+  .news-img-1 {
+    background: url(./img/news-5.png);
+  }
+
+  .news-img-2 {
+    background: url(./img/news-extra.png);
+  }
+
+  .news-img-3 {
+    background: url(./img/news-1.png);
+  }
+
+  .news-img-4 {
+    background: url(./img/news-2.jpg);
+  }
+
+  .news-img-5 {
+    background: url(./img/hero-laptop.jpg);
+  }
+
+  .news-img-6 {
+    background: url(./img/right-top.jpg);
+  }
+
+  .news-img-7 {
+    background: url(./img/right-bottom.jpg);
+  }
+
+  .news-img-8 {
+    background: url(./img/news-8.png);
+  }
+
+  .funding-deals {
+    padding: 24px 20px;
+    margin-bottom: 2em;
   }
 }
 
@@ -201,6 +316,54 @@
     clear: both;
     text-align: left;
   }
+
+  .top-cover-container {
+    width: 98vw;
+    height: 60vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .cover-header {
+    padding: 18px;
+    background: transparent;
+    color: #fff;
+    line-height: 1.5;
+  }
+
+  .cover-left-heading-tablet {
+    font-size: 2.4em;
+    line-height: 1;
+    color: #fff;
+  }
+
+  .cover-left {
+    width: 64vw;
+    height: 100%;
+    background: linear-gradient(360deg, black 20%, transparent), url(./img/table-hero.jpg);
+    background-position: 53% 0;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .cover-right {
+    width: 33vw;
+  }
+
+  .cover-right-top {
+    width: 100%;
+    height: 48%;
+    background-size: 100% 100%;
+    margin-bottom: 9px;
+  }
+
+  .cover-right-bottom {
+    width: 100%;
+    height: 50%;
+    background-size: 100% 100%;
+  }
 }
 
 /* end */
@@ -208,7 +371,8 @@
 /* laptop-start */
 @media only screen and (min-device-width: 769px) and (max-device-width: 2560px) {
   .mobile-tablet,
-  .mobile {
+  .mobile,
+  .cover-left-heading-tablet {
     display: none;
   }
 
@@ -228,26 +392,83 @@
 
   .nav-top-last-child {
     margin-right: 20px;
+    padding-right: 18px;
   }
 
   .nav-bottom-first-child {
-    padding-left: 18px;
+    padding-left: 11px;
   }
 
   .nav-bottom-icon {
-    font-size: 1.5em;
+    font-size: 1.2em;
     position: relative;
     top: -14px;
-  }
-
-  .nav-bottom-icon > a {
-    font-size: 1.5em;
+    opacity: 0.8;
   }
 
   .announcement-bar {
     line-height: 30px;
     padding-left: 20px;
     clear: both;
+  }
+
+  .top-cover-container {
+    height: 75vh;
+    width: 97.6vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .cover-left {
+    width: 64vw;
+    height: 100%;
+    background: linear-gradient(169deg, #f42 0%, rgba(255, 0, 0, 0.6) 30%, black 90%), url(./img/hero-laptop.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .cover-header {
+    letter-spacing: -0.0015em;
+    padding: 20px;
+    color: #fff;
+  }
+
+  .cover-left-heading-laptop {
+    font-size: 3.5em;
+    opacity: 0.9;
+  }
+
+  .cover-right {
+    width: 33vw;
+    height: 100%;
+  }
+
+  .cover-right-top {
+    background: linear-gradient(to top, black, transparent), url(./img/right-top.jpg);
+    width: 100%;
+    height: 48%;
+    background-size: 100% 100%;
+    margin-bottom: 9px;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .cover-heading-laptop {
+    font-size: 1.8em;
+    color: white;
+  }
+
+  .cover-right-bottom {
+    background: linear-gradient(to top, black, transparent), url(./img/right-bottom.jpg);
+    width: 100%;
+    height: 50%;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: flex-end;
   }
 }
 
