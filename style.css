@@ -637,6 +637,13 @@ body {
   font-size: 14px;
 }
 
+.news-articles-li h4 a {
+  display: block;
+  position: relative;
+  top: -13px;
+  padding-left: 10px;
+}
+
 .news-articles-li a:hover {
   color: black;
 }
