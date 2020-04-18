@@ -637,6 +637,10 @@ body {
   font-size: 14px;
 }
 
+hr{
+  border: 0.5px solid lightgray;
+}
+
 .news-articles-li h4 a {
   display: block;
   position: relative;
