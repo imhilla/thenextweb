@@ -595,7 +595,7 @@ body {
 .news-horizontal {
   display: flex;
   flex-direction: row;
-  background-color: rgb(255, 250, 250);
+  background-color: rgb(255, 231, 231);
   height: auto;
   width: fit-content;
   padding-left: 10px;
