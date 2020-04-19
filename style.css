@@ -1062,7 +1062,7 @@ hr {
 
 .latest-deals,
 .news {
-  margin: 0 100px 0 100px;
+  margin: 0 105px 0 105px;
 }
 
 .latest-row {
@@ -1168,7 +1168,8 @@ footer start */
   text-decoration: none;
   margin-top: 8px;
   font-size: 18px;
-  color: white;}
+  color: white;
+}
 
 .footer-links-social {
   margin-bottom: 30px;
@@ -1408,7 +1409,7 @@ footer start */
 
   .latest-deals,
   .news {
-    margin: 0 50px 0 50px;
+    margin: 0 20px 0 20px;
   }
 
   .news-wrapper {
