@@ -6,7 +6,7 @@ In this project, we got the chance to build a responsive website. We cloned The 
 Here's the screenshot of our work
 ![Screenshot](./img/website-heatmap.png "Website heat map")
 
-Here's a <a href="https://rawcdn.githack.com/imhilla/thenextweb/da86baff28bb142e11d504d8d78fffc5d214cadc/index.html">live link</a>
+Here's a <a href="https://rawcdn.githack.com/imhilla/thenextweb/2b5d19737cdf72c53306d89c6a461911965a3278/index.html">live link</a>
 
 Here is how the page was structured:
 The page is divided into three main sections as below;
