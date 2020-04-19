@@ -120,6 +120,7 @@ body {
   line-height: 30px;
   font-size: 12px;
   padding-left: 126px;
+  z-index: 100;
 }
 
 .announcement-bar-laptop::after {
@@ -130,6 +131,7 @@ body {
   background-color: #fd3;
   color: #000;
   font-size: 12px;
+  z-index: 100;
 }
 
 .announcement-bar::after {
@@ -678,6 +680,7 @@ body {
     padding-left: 126px;
     clear: both;
     text-align: left;
+    z-index: 100;
   }
 
   .top-cover-container {
