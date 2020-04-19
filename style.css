@@ -149,6 +149,10 @@ body {
   width: 86vw;
 }
 
+.clr {
+  color: rgb(158, 157, 157);
+}
+
 .nav-top-list-first-child {
   margin-left: 20px;
   color: #fff;
@@ -1073,8 +1077,8 @@ body {
     margin-top: 30px;
   }
 
-  .footer-links-menu li a {
-    color: gray;
+  .footer-links-menu-li a {
+    color: rgb(240, 236, 236);
     font-size: 13px;
     font-size: 11px;
     margin: 5px;
