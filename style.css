@@ -759,7 +759,7 @@ body {
   }
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 425px) {
+@media only screen and (max-device-width: 767px) {
   .mob-header {
     position: fixed;
     top: 0;
@@ -1318,7 +1318,7 @@ body {
   .news-most-popular {
     display: flex;
     flex-direction: column !important;
-    height: 250px;
+    height: 276px;
     width: fit-content;
     padding-left: 10px;
     background-repeat: no-repeat;
@@ -1372,7 +1372,10 @@ body {
 
   .latest-deals,
   .news {
-    margin: 0 105px 0 105px;
+    /* margin: 0 105px 0 105px; */
+    max-width: 1192px;
+    margin: 0 auto;
+    padding: 0 20px;
   }
 
   .news-wrapper {
