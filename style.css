@@ -993,7 +993,7 @@ hr {
 
 .latest-deals,
 .news {
-  margin: 0 100px 0 100px;
+  margin: 0 105px 0 105px !important;
 }
 
 .latest-row {
