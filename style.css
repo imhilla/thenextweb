@@ -380,6 +380,18 @@ body {
   top: 20px;
 }
 
+.news-articles-li a {
+  color: gray;
+  font-size: 14px;
+}
+
+.news-articles-li h4 a {
+  display: block;
+  position: relative;
+  top: -13px;
+  padding-left: 10px;
+}
+
 .deal-1 {
   background: url(./img/deals-1.jpg);
   background-size: 100%;
@@ -924,23 +936,19 @@ body {
 }
 
 .background1 {
-  background: linear-gradient(to top, black, transparent),
-    url(img/top-img-1.jpg);
+  background: linear-gradient(to top, black, transparent), url(img/top-img-1.jpg);
 }
 
 .background2 {
-  background: linear-gradient(to top, black, transparent),
-    url(img/top-img-2.jpg);
+  background: linear-gradient(to top, black, transparent), url(img/top-img-2.jpg);
 }
 
 .background3 {
-  background: linear-gradient(to top, black, transparent),
-    url(img/Indian-IT-796x418.jpg);
+  background: linear-gradient(to top, black, transparent), url(img/Indian-IT-796x418.jpg);
 }
 
 .background4 {
-  background: linear-gradient(to top, black, transparent),
-    url(img/1-16-796x417.jpg);
+  background: linear-gradient(to top, black, transparent), url(img/1-16-796x417.jpg);
 }
 
 .background5 {
@@ -948,18 +956,15 @@ body {
 }
 
 .background6 {
-  background: linear-gradient(to top, black, transparent),
-    url(img/maxresdefault-796x448.jpg);
+  background: linear-gradient(to top, black, transparent), url(img/maxresdefault-796x448.jpg);
 }
 
 .background7 {
-  background: linear-gradient(to top, black, transparent),
-    url(img/Google-coronavirus-portal-796x419.jpg);
+  background: linear-gradient(to top, black, transparent), url(img/Google-coronavirus-portal-796x419.jpg);
 }
 
 .background8 {
-  background: linear-gradient(to top, black, transparent),
-    url(img/Screen-Shot-2020-01-30-at-8.40.06-AM-796x462.png);
+  background: linear-gradient(to top, black, transparent), url(img/Screen-Shot-2020-01-30-at-8.40.06-AM-796x462.png);
 }
 
 .news-wrapper {
@@ -1022,28 +1027,8 @@ body {
   line-height: 16px;
 }
 
-.news-artlicles li {
-  list-style-position: outside;
-}
-
 .news-articles-li {
   color: red;
-}
-
-.news-articles-li a {
-  color: gray;
-  font-size: 14px;
-}
-
-hr {
-  border: 0.5px solid lightgray;
-}
-
-.news-articles-li h4 a {
-  display: block;
-  position: relative;
-  top: -13px;
-  padding-left: 10px;
 }
 
 .news-articles-li a:hover {
@@ -1073,7 +1058,7 @@ hr {
   width: 100%;
 }
 
-.latest-deal-link a {
+.latest-deal-link-a {
   color: red;
   font-size: 30px;
   font-weight: bold;
@@ -1084,7 +1069,7 @@ hr {
   height: auto;
 }
 
-.see-all-deals a {
+.see-all-deals-a {
   font-size: 20px;
   color: red;
 }
@@ -1147,7 +1132,7 @@ footer start */
   padding: 0 20px;
 }
 
-.footer-links-social li {
+.footer-links-social-li {
   border-radius: 50%;
   border: 2px solid rgb(41, 40, 40);
   background-color: rgb(41, 40, 40);
@@ -1156,7 +1141,7 @@ footer start */
   margin-top: 30px;
 }
 
-.footer-links-menu li a {
+.footer-links-menu-li-a {
   color: gray;
   font-size: 13px;
   margin: 10px;
@@ -1179,7 +1164,7 @@ footer start */
   transform: rotate(30deg);
 }
 
-.footer-links-menu li {
+.footer-links-menu-li {
   margin-bottom: 20px;
 }
 
@@ -1215,8 +1200,6 @@ footer start */
   color: #aaa;
   font-size: 15px;
 }
-
-/* Hillary Chapter */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 425px) {
   .news {
