@@ -1,7 +1,7 @@
 # The next web (TNW) news page clone
 This project was completed under Microverse remote software development curriculum. The replica of the page was built by pair programming while  putting emphasis on how it behaves on different sizes of the screen where the webpage is rendered. The developer tools was used to define the break points for the different screens.
 
-Here's the screenshot of our work
+Here's the screenshot of our work.
 ![Screenshot](./img/screenshot.gif "thenextweb-clone")
 
 Here's a <a href="https://raw.githack.com/imhilla/thenextweb/home-page/index.html">live link</a>
