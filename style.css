@@ -461,7 +461,6 @@ body {
   padding-right: 18px;
 }
 
-/* laptop-start */
 @media only screen and (min-device-width: 769px) and (max-device-width: 2560px) {
   .mobile-tablet,
   .tablet,
@@ -667,10 +666,6 @@ body {
   }
 }
 
-/* laptop end */
-
-/* tablet */
-
 @media only screen and (min-device-width: 426px) and (max-device-width: 768px) {
   .mobile,
   .laptop {
@@ -772,9 +767,6 @@ body {
   }
 }
 
-/* end */
-
-/* mobile */
 @media only screen and (min-device-width: 320px) and (max-device-width: 425px) {
   .mob-header {
     position: fixed;
@@ -902,10 +894,6 @@ body {
     font-size: 10px;
   }
 }
-
-/* end */
-
-/* hillarys boundary */
 
 .news {
   display: grid;
@@ -1116,11 +1104,6 @@ body {
 .price {
   margin: 5px 0;
 }
-
-/* latest deals end */
-
-/*
-footer start */
 
 .footer {
   text-align: center;
@@ -1413,4 +1396,3 @@ footer start */
   }
 }
 
-/* footer end */
