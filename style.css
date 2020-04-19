@@ -1038,12 +1038,6 @@ body {
   color: gray;
 }
 
-/* news section */
-
-/* news section end */
-
-/* latest deals start */
-
 .latest-deals,
 .news {
   margin: 0 105px 0 105px;
@@ -1394,4 +1388,8 @@ body {
     overflow: hidden;
     bottom: -100px;
   }
+}
+
+.clr {
+  color: gray;
 }
