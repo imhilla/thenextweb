@@ -37,7 +37,7 @@ Built With
 🤝 Contributing
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the issues page on [issues](https://github.com/vanheaven-ui/website-heat-map/issues).
+Feel free to check the issues page on [issues](https://github.com/imhilla/thenextweb/issues).
 
 Show your support
 Give a ⭐️ if you like this project!
