@@ -658,7 +658,7 @@ body {
   }
 }
 
-@media only screen and (max-device-width: 788px) {
+@media only screen and (min-device-width: 426px) and (max-device-width: 768px) {
   .mobile,
   .laptop {
     display: none;
@@ -759,7 +759,7 @@ body {
   }
 }
 
-@media only screen and (max-device-width: 767px) {
+@media only screen and (min-device-width: 426px) and (max-device-width: 767px) {
   .mob-header {
     position: fixed;
     top: 0;
@@ -1181,7 +1181,7 @@ body {
   font-size: 15px;
 }
 
-@media only screen and (max-device-width: 767px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 425px) {
   .news {
     display: grid;
     grid-template-columns: 1fr;
