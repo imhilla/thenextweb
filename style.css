@@ -1359,7 +1359,6 @@ body {
   .news {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 0 50px 0 50px;
   }
 
   .news-most-popular {
@@ -1377,7 +1376,7 @@ body {
 
   .latest-deals,
   .news {
-    margin: 0 50px 0 50px;
+    margin: 0 20px 0 20px;
   }
 
   .news-wrapper {
