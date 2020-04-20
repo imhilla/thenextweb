@@ -4,7 +4,7 @@ This project was completed under Microverse remote software development curricul
 Here's the screenshot of our work
 ![Screenshot](./img/screenshot.gif "thenextweb-clone")
 
-Here's a <a href="https://rawcdn.githack.com/imhilla/thenextweb/2589dd4fe2499769a74f9d718e6996ecde839d81/index.html">live link</a>
+Here's a <a href="https://raw.githack.com/imhilla/thenextweb/home-page/index.html">live link</a>
 
 Here is how the page is structured:
 The page is divided into three main sections as below;
