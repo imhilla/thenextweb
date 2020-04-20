@@ -696,7 +696,7 @@ body {
   background-color: #555;
   border-radius: 50%;
   line-height: 40px;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
 .footer-links-social li a i {
@@ -750,7 +750,7 @@ body {
 
 .clr {
   color: gray;
-  margin-right: 10px;
+  margin-right: 12px;
 }
 
 @media only screen and (max-width: 767px) {
