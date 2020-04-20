@@ -766,6 +766,7 @@ body {
   .tablet,
   .tablet-laptop,
   .cover-left-heading-tablet,
+  .cover-left-heading-laptop,
   .laptop {
     display: none;
   }
@@ -1000,10 +1001,16 @@ body {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 788px) {
   .mobile,
-  .laptop {
+  .laptop,
+  .announcement-bar-laptop,
+  .cover-left-heading-laptop {
     display: none;
+  }
+
+  .wrapper-top {
+    display: flex;
   }
 
   .logo {
