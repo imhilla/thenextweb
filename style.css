@@ -93,6 +93,10 @@ body {
   background-position: 0;
 }
 
+.normal-red {
+  color: #f42;
+}
+
 .header-right-items {
   display: block;
   height: 48px;
@@ -202,7 +206,8 @@ body {
 }
 
 .cover-right-top {
-  background: linear-gradient(360deg, black, transparent),
+  background:
+    linear-gradient(360deg, black, transparent),
     url(./img/top-img-2.jpg);
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -212,7 +217,8 @@ body {
 }
 
 .cover-right-bottom {
-  background: linear-gradient(360deg, black, transparent),
+  background:
+    linear-gradient(360deg, black, transparent),
     url(./img/top-img-4.png);
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -299,6 +305,10 @@ body {
   line-height: 18px;
 }
 
+.news-title:hover {
+  color: #f42;
+}
+
 .news-byline {
   color: #aaa;
   font-size: 12px;
@@ -373,8 +383,8 @@ body {
 }
 
 .news-articles-li a {
-  color: gray;
-  font-size: 14px;
+  color: #aaa;
+  font-size: 12px;
 }
 
 .news-articles-li h4 a {
@@ -452,8 +462,7 @@ body {
 }
 
 .news {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 3.5em;
   grid-gap: 20px;
 }
 
@@ -483,22 +492,26 @@ body {
 }
 
 .background1 {
-  background: linear-gradient(to top, black, transparent),
+  background:
+    linear-gradient(to top, black, transparent),
     url(img/top-img-1.jpg);
 }
 
 .background2 {
-  background: linear-gradient(to top, black, transparent),
+  background:
+    linear-gradient(to top, black, transparent),
     url(img/top-img-2.jpg);
 }
 
 .background3 {
-  background: linear-gradient(to top, black, transparent),
+  background:
+    linear-gradient(to top, black, transparent),
     url(img/Indian-IT-796x418.jpg);
 }
 
 .background4 {
-  background: linear-gradient(to top, black, transparent),
+  background:
+    linear-gradient(to top, black, transparent),
     url(img/1-16-796x417.jpg);
 }
 
@@ -507,17 +520,20 @@ body {
 }
 
 .background6 {
-  background: linear-gradient(to top, black, transparent),
+  background:
+    linear-gradient(to top, black, transparent),
     url(img/maxresdefault-796x448.jpg);
 }
 
 .background7 {
-  background: linear-gradient(to top, black, transparent),
+  background:
+    linear-gradient(to top, black, transparent),
     url(img/Google-coronavirus-portal-796x419.jpg);
 }
 
 .background8 {
-  background: linear-gradient(to top, black, transparent),
+  background:
+    linear-gradient(to top, black, transparent),
     url(img/Screen-Shot-2020-01-30-at-8.40.06-AM-796x462.png);
 }
 
@@ -560,12 +576,11 @@ body {
 }
 
 .news-articles-headline {
-  color: red;
+  color: #f42;
 }
 
 .news-latest-h1 {
   font-size: 13px;
-  color: red;
   margin: 10px 0 5px 0;
 }
 
@@ -582,13 +597,9 @@ body {
   line-height: 16px;
 }
 
-.news-articles-li {
-  color: red;
-}
-
 .news-articles-li h4 a::before {
   content: "\2022";
-  color: red;
+  color: #f42;
   font-weight: bold;
   display: inline-block;
   width: 0.9em;
@@ -602,23 +613,13 @@ body {
   color: gray;
 }
 
-.latest-deals,
-.news {
-  margin: 0 105px 0 105px;
-}
-
 .latest-row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   line-height: 40px;
   width: 100%;
-}
-
-.latest-deal-link-a {
-  color: red;
-  font-size: 30px;
-  font-weight: bold;
+  margin-top: 20px;
 }
 
 .deals-img img {
@@ -627,8 +628,7 @@ body {
 }
 
 .see-all-deals-a {
-  font-size: 20px;
-  color: red;
+  font-size: 16px;
 }
 
 .deals-section {
@@ -679,6 +679,7 @@ body {
 .footer-links-menu {
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 .footer-links-menu-li {
@@ -719,16 +720,8 @@ body {
   transform: rotate(30deg);
 }
 
-.footer-links-menu-li {
-  margin-bottom: 20px;
-}
-
 .footer-links-social li:hover {
   background-color: rgb(26, 25, 25);
-}
-
-.footer-links-menu {
-  width: 100%;
 }
 
 .stackpath-a {
@@ -739,6 +732,7 @@ body {
 .tnwimg {
   height: 30px;
   width: 40px;
+  padding-top: 20px;
 }
 
 .redheart {
@@ -754,6 +748,11 @@ body {
   padding: 2.5em 0;
   color: #aaa;
   font-size: 15px;
+}
+
+.upper-wrapper {
+  width: 60%;
+  padding: 25px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -833,7 +832,8 @@ body {
   }
 
   .cover-left {
-    background: linear-gradient(360deg, black, transparent),
+    background:
+      linear-gradient(360deg, black, transparent),
       url(./img/top-img-1.jpg);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -881,13 +881,6 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     margin: 0 20px 0 20px;
-  }
-
-  .news-headers h1 {
-    font-weight: bold;
-    color: red;
-    font-size: 25px;
-    margin: 10px 0;
   }
 
   .news-most-popular {
@@ -963,19 +956,9 @@ body {
     justify-content: space-between;
   }
 
-  .latest-deal-link a {
-    color: red;
-    font-size: 15px;
-  }
-
-  .see-all-deals a {
-    font-size: 10px;
-    color: red;
-  }
-
   .lower-wrapper {
     display: flex;
-    font-size: 13px;
+    font-size: 12px;
     flex-direction: column;
   }
 
@@ -985,8 +968,7 @@ body {
     height: 40px;
     text-align: center;
     width: 40px;
-    margin-top: 10px;
-    padding-top: 10px;
+    line-height: 40px;
   }
 
   .footer-links-menu li a {
@@ -996,10 +978,6 @@ body {
     text-decoration: none;
     text-align: center;
   }
-
-  .upper-wrapper {
-    width: 60%;
-  }
 }
 
 @media screen and (max-width: 320px) {
@@ -1008,7 +986,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 788px) {
+@media screen and (min-width: 768px) and (max-width: 788px) {
   .mobile,
   .laptop,
   .announcement-bar-laptop,
@@ -1063,7 +1041,8 @@ body {
   .cover-left {
     width: 64vw;
     height: 100%;
-    background: linear-gradient(360deg, black 20%, transparent),
+    background:
+      linear-gradient(360deg, black 20%, transparent),
       url(./img/table-hero.jpg);
     background-position: 53% 0;
     background-repeat: no-repeat;
@@ -1112,9 +1091,7 @@ body {
   .funding-deals-wrapper {
     padding: 20px;
   }
-}
 
-@media only screen and (min-width: 768px) {
   .deals-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -1123,7 +1100,10 @@ body {
   .news {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 0 50px 0 50px;
+  }
+
+  .gen-wrapper {
+    padding: 20px;
   }
 
   .news-most-popular {
@@ -1139,24 +1119,10 @@ body {
     background-size: cover;
   }
 
-  .latest-deals,
-  .news {
-    margin: 0 50px 0 50px;
-  }
-
   .news-wrapper {
     position: relative;
     overflow: hidden;
     bottom: -100px;
-  }
-
-  .upper-wrapper {
-    width: 60%;
-    padding: 25px 0;
-  }
-
-  .lower-wrapper {
-    font-size: 15px;
   }
 
   .footer-links-menu li a {
@@ -1170,14 +1136,11 @@ body {
     height: 40px;
     text-align: center;
     width: 40px;
-    margin-top: 10px;
-  }
-  .upper-wrapper {
-    width: 60%;
+    line-height: 40px;
   }
 }
 
-@media only screen and (min-width: 789px) {
+@media screen and (min-width: 789px) {
   .mobile-tablet,
   .tablet,
   .mobile,
@@ -1247,7 +1210,8 @@ body {
   .cover-left {
     width: 64vw;
     height: 100%;
-    background: linear-gradient(
+    background:
+      linear-gradient(
         169deg,
         #f42 0%,
         rgba(255, 0, 0, 0.6) 30%,
@@ -1288,7 +1252,8 @@ body {
   }
 
   .cover-right-top {
-    background: linear-gradient(to top, black, transparent),
+    background:
+      linear-gradient(to top, black, transparent),
       url(./img/right-top.jpg);
     width: 100%;
     height: 48%;
@@ -1306,7 +1271,8 @@ body {
   }
 
   .cover-right-bottom {
-    background: linear-gradient(to top, black, transparent),
+    background:
+      linear-gradient(to top, black, transparent),
       url(./img/right-bottom.jpg);
     width: 100%;
     height: 50%;
@@ -1368,7 +1334,7 @@ body {
   .articles-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 30px;
+    grid-gap: 25px;
   }
 
   .deals-wrapper-heading {
@@ -1384,9 +1350,7 @@ body {
   .deals-heading-link {
     font-size: 16px;
   }
-}
 
-@media only screen and (min-device-width: 789px) {
   .upper-wrapper {
     width: 35%;
   }
@@ -1408,7 +1372,7 @@ body {
   .news {
     max-width: 1192px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 2.5em 20px 0;
   }
 
   .news-wrapper {
@@ -1420,16 +1384,13 @@ body {
   .deals-section {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
+    grid-gap: 25px;
   }
 
   .news {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-  }
-
-  .upper-wrapper {
-    width: 50%;
+    grid-gap: 25px;
   }
 
   .footer-links-menu {
