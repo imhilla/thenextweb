@@ -1380,6 +1380,15 @@ body {
     overflow: hidden;
     bottom: -100px;
   }
+  .deals-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+  .news {
+  display: grid;
+grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .clr {
