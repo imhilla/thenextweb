@@ -202,8 +202,7 @@ body {
 }
 
 .cover-right-top {
-  background: linear-gradient(360deg, black, transparent),
-    url(./img/top-img-2.jpg);
+  background: linear-gradient(360deg, black, transparent), url(./img/top-img-2.jpg);
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -212,8 +211,7 @@ body {
 }
 
 .cover-right-bottom {
-  background: linear-gradient(360deg, black, transparent),
-    url(./img/top-img-4.png);
+  background: linear-gradient(360deg, black, transparent), url(./img/top-img-4.png);
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -483,23 +481,19 @@ body {
 }
 
 .background1 {
-  background: linear-gradient(to top, black, transparent),
-    url(img/top-img-1.jpg);
+  background: linear-gradient(to top, black, transparent), url(img/top-img-1.jpg);
 }
 
 .background2 {
-  background: linear-gradient(to top, black, transparent),
-    url(img/top-img-2.jpg);
+  background: linear-gradient(to top, black, transparent), url(img/top-img-2.jpg);
 }
 
 .background3 {
-  background: linear-gradient(to top, black, transparent),
-    url(img/Indian-IT-796x418.jpg);
+  background: linear-gradient(to top, black, transparent), url(img/Indian-IT-796x418.jpg);
 }
 
 .background4 {
-  background: linear-gradient(to top, black, transparent),
-    url(img/1-16-796x417.jpg);
+  background: linear-gradient(to top, black, transparent), url(img/1-16-796x417.jpg);
 }
 
 .background5 {
@@ -507,18 +501,15 @@ body {
 }
 
 .background6 {
-  background: linear-gradient(to top, black, transparent),
-    url(img/maxresdefault-796x448.jpg);
+  background: linear-gradient(to top, black, transparent), url(img/maxresdefault-796x448.jpg);
 }
 
 .background7 {
-  background: linear-gradient(to top, black, transparent),
-    url(img/Google-coronavirus-portal-796x419.jpg);
+  background: linear-gradient(to top, black, transparent), url(img/Google-coronavirus-portal-796x419.jpg);
 }
 
 .background8 {
-  background: linear-gradient(to top, black, transparent),
-    url(img/Screen-Shot-2020-01-30-at-8.40.06-AM-796x462.png);
+  background: linear-gradient(to top, black, transparent), url(img/Screen-Shot-2020-01-30-at-8.40.06-AM-796x462.png);
 }
 
 .news-wrapper {
@@ -679,10 +670,12 @@ body {
 .footer-links-menu {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .footer-links-menu-li {
   margin-right: 8px;
+  margin-bottom: 20px;
 }
 
 .wrapper {
@@ -719,16 +712,8 @@ body {
   transform: rotate(30deg);
 }
 
-.footer-links-menu-li {
-  margin-bottom: 20px;
-}
-
 .footer-links-social li:hover {
   background-color: rgb(26, 25, 25);
-}
-
-.footer-links-menu {
-  width: 100%;
 }
 
 .stackpath-a {
@@ -833,8 +818,7 @@ body {
   }
 
   .cover-left {
-    background: linear-gradient(360deg, black, transparent),
-      url(./img/top-img-1.jpg);
+    background: linear-gradient(360deg, black, transparent), url(./img/top-img-1.jpg);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1063,8 +1047,7 @@ body {
   .cover-left {
     width: 64vw;
     height: 100%;
-    background: linear-gradient(360deg, black 20%, transparent),
-      url(./img/table-hero.jpg);
+    background: linear-gradient(360deg, black 20%, transparent), url(./img/table-hero.jpg);
     background-position: 53% 0;
     background-repeat: no-repeat;
     display: flex;
@@ -1153,6 +1136,7 @@ body {
   .upper-wrapper {
     width: 60%;
     padding: 25px 0;
+    width: 60%;
   }
 
   .lower-wrapper {
@@ -1171,9 +1155,6 @@ body {
     text-align: center;
     width: 40px;
     margin-top: 10px;
-  }
-  .upper-wrapper {
-    width: 60%;
   }
 }
 
@@ -1247,13 +1228,7 @@ body {
   .cover-left {
     width: 64vw;
     height: 100%;
-    background: linear-gradient(
-        169deg,
-        #f42 0%,
-        rgba(255, 0, 0, 0.6) 30%,
-        black 90%
-      ),
-      url(./img/hero-laptop.jpg);
+    background: linear-gradient(169deg, #f42 0%, rgba(255, 0, 0, 0.6) 30%, black 90%), url(./img/hero-laptop.jpg);
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: 100% 100%;
@@ -1288,8 +1263,7 @@ body {
   }
 
   .cover-right-top {
-    background: linear-gradient(to top, black, transparent),
-      url(./img/right-top.jpg);
+    background: linear-gradient(to top, black, transparent), url(./img/right-top.jpg);
     width: 100%;
     height: 48%;
     background-size: 100% 100%;
@@ -1306,8 +1280,7 @@ body {
   }
 
   .cover-right-bottom {
-    background: linear-gradient(to top, black, transparent),
-      url(./img/right-bottom.jpg);
+    background: linear-gradient(to top, black, transparent), url(./img/right-bottom.jpg);
     width: 100%;
     height: 50%;
     background-size: 100% 100%;
@@ -1388,7 +1361,7 @@ body {
 
 @media only screen and (min-device-width: 789px) {
   .upper-wrapper {
-    width: 35%;
+    width: 50%;
   }
 
   .news-most-popular {
@@ -1426,10 +1399,6 @@ body {
   .news {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-  }
-
-  .upper-wrapper {
-    width: 50%;
   }
 
   .footer-links-menu {
