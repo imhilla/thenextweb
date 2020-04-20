@@ -453,7 +453,7 @@ body {
   padding-right: 18px;
 }
 
-@media only screen and (min-device-width: 769px) and (max-device-width: 2560px) {
+@media only screen and (min-device-width: 789px) {
   .mobile-tablet,
   .tablet,
   .mobile,
@@ -658,7 +658,7 @@ body {
   }
 }
 
-@media only screen and (min-device-width: 426px) and (max-device-width: 768px) {
+@media only screen and (max-device-width: 788px) {
   .mobile,
   .laptop {
     display: none;
@@ -1181,7 +1181,7 @@ body {
   font-size: 15px;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 425px) {
+@media only screen and (max-device-width: 767px) {
   .news {
     display: grid;
     grid-template-columns: 1fr;
