@@ -116,7 +116,7 @@ body {
 }
 
 .announcement-bar-laptop::after {
-  content: '→';
+  content: "→";
 }
 
 .announcement-bar {
@@ -202,8 +202,7 @@ body {
 }
 
 .cover-right-top {
-  background:
-    linear-gradient(360deg, black, transparent),
+  background: linear-gradient(360deg, black, transparent),
     url(./img/top-img-2.jpg);
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -213,8 +212,7 @@ body {
 }
 
 .cover-right-bottom {
-  background:
-    linear-gradient(360deg, black, transparent),
+  background: linear-gradient(360deg, black, transparent),
     url(./img/top-img-4.png);
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -485,19 +483,23 @@ body {
 }
 
 .background1 {
-  background: linear-gradient(to top, black, transparent), url(img/top-img-1.jpg);
+  background: linear-gradient(to top, black, transparent),
+    url(img/top-img-1.jpg);
 }
 
 .background2 {
-  background: linear-gradient(to top, black, transparent), url(img/top-img-2.jpg);
+  background: linear-gradient(to top, black, transparent),
+    url(img/top-img-2.jpg);
 }
 
 .background3 {
-  background: linear-gradient(to top, black, transparent), url(img/Indian-IT-796x418.jpg);
+  background: linear-gradient(to top, black, transparent),
+    url(img/Indian-IT-796x418.jpg);
 }
 
 .background4 {
-  background: linear-gradient(to top, black, transparent), url(img/1-16-796x417.jpg);
+  background: linear-gradient(to top, black, transparent),
+    url(img/1-16-796x417.jpg);
 }
 
 .background5 {
@@ -505,15 +507,18 @@ body {
 }
 
 .background6 {
-  background: linear-gradient(to top, black, transparent), url(img/maxresdefault-796x448.jpg);
+  background: linear-gradient(to top, black, transparent),
+    url(img/maxresdefault-796x448.jpg);
 }
 
 .background7 {
-  background: linear-gradient(to top, black, transparent), url(img/Google-coronavirus-portal-796x419.jpg);
+  background: linear-gradient(to top, black, transparent),
+    url(img/Google-coronavirus-portal-796x419.jpg);
 }
 
 .background8 {
-  background: linear-gradient(to top, black, transparent), url(img/Screen-Shot-2020-01-30-at-8.40.06-AM-796x462.png);
+  background: linear-gradient(to top, black, transparent),
+    url(img/Screen-Shot-2020-01-30-at-8.40.06-AM-796x462.png);
 }
 
 .news-wrapper {
@@ -549,8 +554,9 @@ body {
   flex-direction: row;
   background-color: rgb(255, 231, 231);
   height: auto;
-  width: fit-content;
+  width: 100%;
   padding-left: 10px;
+  justify-content: space-between;
 }
 
 .news-articles-headline {
@@ -823,8 +829,7 @@ body {
   }
 
   .cover-left {
-    background:
-      linear-gradient(360deg, black, transparent),
+    background: linear-gradient(360deg, black, transparent),
       url(./img/top-img-1.jpg);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -885,7 +890,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 220px;
-    width: fit-content;
+    width: 95vw;
     padding-left: 10px;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -1044,8 +1049,7 @@ body {
   .cover-left {
     width: 64vw;
     height: 100%;
-    background:
-      linear-gradient(360deg, black 20%, transparent),
+    background: linear-gradient(360deg, black 20%, transparent),
       url(./img/table-hero.jpg);
     background-position: 53% 0;
     background-repeat: no-repeat;
@@ -1215,7 +1219,13 @@ body {
   .cover-left {
     width: 64vw;
     height: 100%;
-    background: linear-gradient(169deg, #f42 0%, rgba(255, 0, 0, 0.6) 30%, black 90%), url(./img/hero-laptop.jpg);
+    background: linear-gradient(
+        169deg,
+        #f42 0%,
+        rgba(255, 0, 0, 0.6) 30%,
+        black 90%
+      ),
+      url(./img/hero-laptop.jpg);
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: 100% 100%;
@@ -1250,8 +1260,7 @@ body {
   }
 
   .cover-right-top {
-    background:
-      linear-gradient(to top, black, transparent),
+    background: linear-gradient(to top, black, transparent),
       url(./img/right-top.jpg);
     width: 100%;
     height: 48%;
@@ -1269,8 +1278,7 @@ body {
   }
 
   .cover-right-bottom {
-    background:
-      linear-gradient(to top, black, transparent),
+    background: linear-gradient(to top, black, transparent),
       url(./img/right-bottom.jpg);
     width: 100%;
     height: 50%;
@@ -1380,11 +1388,16 @@ body {
     overflow: hidden;
     bottom: -100px;
   }
+
   .deals-section {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
- 
+  }
+
+  .news {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
