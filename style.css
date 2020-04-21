@@ -350,6 +350,7 @@ body {
 
 .deals-wrapper-heading {
   margin-bottom: 24px;
+  line-height: 1px;
 }
 
 .deal-heading {
@@ -1072,7 +1073,7 @@ body {
 
   .latest-news {
     padding-top: 24px;
-    margin-bottom: 3em;
+    margin: 1.5em 0;
   }
 
   .latest-news-wrapper {
@@ -1282,7 +1283,7 @@ body {
 
   .latest-news {
     padding-top: 24px;
-    margin-bottom: 3em;
+    margin: 2.5em 0;
   }
 
   .latest-news-wrapper {
@@ -1300,7 +1301,7 @@ body {
   .news-img {
     display: block;
     width: 100%;
-    height: 120px;
+    height: 150px;
   }
 
   .news-byline {
